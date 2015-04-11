@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F41517A1AC710660092360B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151791AC710660092360B /* main.m */; };
+		2F41517D1AC710660092360B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F41517C1AC710660092360B /* AppDelegate.m */; };
+		2F4151831AC710660092360B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4151811AC710660092360B /* Main.storyboard */; };
+		2F4151851AC710660092360B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4151841AC710660092360B /* Images.xcassets */; };
+		2F4151881AC710660092360B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4151861AC710660092360B /* LaunchScreen.xib */; };
+		2F4151941AC710660092360B /* PhillyVoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151931AC710660092360B /* PhillyVoteTests.m */; };
+		2F4151A51AC712890092360B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151A41AC712890092360B /* MainMenuViewController.m */; };
+		2F4151A81AC712960092360B /* CheckRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151A71AC712960092360B /* CheckRegistrationViewController.m */; };
+		2F4151AB1AC712A40092360B /* ResultsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151AA1AC712A40092360B /* ResultsMapViewController.m */; };
+		2F4151AE1AC72A990092360B /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151AD1AC72A990092360B /* API.m */; };
+		2F4151B31AC73F2F0092360B /* PollingLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151B21AC73F2F0092360B /* PollingLocationAnnotation.m */; };
+		2F4151B61AC745F50092360B /* PollingLocationAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151B51AC745F50092360B /* PollingLocationAnnotationView.m */; };
+		2F4151B91AC754B90092360B /* PollingInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151B81AC754B90092360B /* PollingInformationView.m */; };
+		2F4151BC1AC759F20092360B /* APIValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F4151BB1AC759F20092360B /* APIValues.plist */; };
+		2F4151BF1AC760E90092360B /* AdditionalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4151BE1AC760E90092360B /* AdditionalInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F41518E1AC710660092360B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F41516C1AC710650092360B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F4151731AC710660092360B;
+			remoteInfo = PhillyVote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F4151741AC710660092360B /* PhillyVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillyVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4151781AC710660092360B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4151791AC710660092360B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F41517B1AC710660092360B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F41517C1AC710660092360B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F4151821AC710660092360B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F4151841AC710660092360B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F4151871AC710660092360B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F41518D1AC710660092360B /* PhillyVoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhillyVoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4151921AC710660092360B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4151931AC710660092360B /* PhillyVoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhillyVoteTests.m; sourceTree = "<group>"; };
+		2F4151A31AC712890092360B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		2F4151A41AC712890092360B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		2F4151A61AC712960092360B /* CheckRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckRegistrationViewController.h; sourceTree = "<group>"; };
+		2F4151A71AC712960092360B /* CheckRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckRegistrationViewController.m; sourceTree = "<group>"; };
+		2F4151A91AC712A30092360B /* ResultsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsMapViewController.h; sourceTree = "<group>"; };
+		2F4151AA1AC712A40092360B /* ResultsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsMapViewController.m; sourceTree = "<group>"; };
+		2F4151AC1AC72A990092360B /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		2F4151AD1AC72A990092360B /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		2F4151B11AC73F2F0092360B /* PollingLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PollingLocationAnnotation.h; sourceTree = "<group>"; };
+		2F4151B21AC73F2F0092360B /* PollingLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PollingLocationAnnotation.m; sourceTree = "<group>"; };
+		2F4151B41AC745F50092360B /* PollingLocationAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PollingLocationAnnotationView.h; sourceTree = "<group>"; };
+		2F4151B51AC745F50092360B /* PollingLocationAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PollingLocationAnnotationView.m; sourceTree = "<group>"; };
+		2F4151B71AC754B90092360B /* PollingInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PollingInformationView.h; sourceTree = "<group>"; };
+		2F4151B81AC754B90092360B /* PollingInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PollingInformationView.m; sourceTree = "<group>"; };
+		2F4151BB1AC759F20092360B /* APIValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIValues.plist; sourceTree = "<group>"; };
+		2F4151BD1AC760E90092360B /* AdditionalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionalInfoViewController.h; sourceTree = "<group>"; };
+		2F4151BE1AC760E90092360B /* AdditionalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionalInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4151711AC710660092360B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F41518A1AC710660092360B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F41516B1AC710650092360B = {
+			isa = PBXGroup;
+			children = (
+				2F4151761AC710660092360B /* PhillyVote */,
+				2F4151901AC710660092360B /* PhillyVoteTests */,
+				2F4151751AC710660092360B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F4151751AC710660092360B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151741AC710660092360B /* PhillyVote.app */,
+				2F41518D1AC710660092360B /* PhillyVoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F4151761AC710660092360B /* PhillyVote */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151811AC710660092360B /* Main.storyboard */,
+				2F4151AF1AC72AA10092360B /* Controllers */,
+				2F4151BA1AC754BD0092360B /* Views */,
+				2F4151B01AC72AAD0092360B /* Objects */,
+				2F4151771AC710660092360B /* Supporting Files */,
+				2F4151841AC710660092360B /* Images.xcassets */,
+				2F4151861AC710660092360B /* LaunchScreen.xib */,
+			);
+			path = PhillyVote;
+			sourceTree = "<group>";
+		};
+		2F4151771AC710660092360B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F41517B1AC710660092360B /* AppDelegate.h */,
+				2F41517C1AC710660092360B /* AppDelegate.m */,
+				2F4151781AC710660092360B /* Info.plist */,
+				2F4151791AC710660092360B /* main.m */,
+				2F4151BB1AC759F20092360B /* APIValues.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F4151901AC710660092360B /* PhillyVoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151931AC710660092360B /* PhillyVoteTests.m */,
+				2F4151911AC710660092360B /* Supporting Files */,
+			);
+			path = PhillyVoteTests;
+			sourceTree = "<group>";
+		};
+		2F4151911AC710660092360B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151921AC710660092360B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F4151AF1AC72AA10092360B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151A31AC712890092360B /* MainMenuViewController.h */,
+				2F4151A41AC712890092360B /* MainMenuViewController.m */,
+				2F4151A61AC712960092360B /* CheckRegistrationViewController.h */,
+				2F4151A71AC712960092360B /* CheckRegistrationViewController.m */,
+				2F4151A91AC712A30092360B /* ResultsMapViewController.h */,
+				2F4151AA1AC712A40092360B /* ResultsMapViewController.m */,
+				2F4151BD1AC760E90092360B /* AdditionalInfoViewController.h */,
+				2F4151BE1AC760E90092360B /* AdditionalInfoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2F4151B01AC72AAD0092360B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151AC1AC72A990092360B /* API.h */,
+				2F4151AD1AC72A990092360B /* API.m */,
+				2F4151B11AC73F2F0092360B /* PollingLocationAnnotation.h */,
+				2F4151B21AC73F2F0092360B /* PollingLocationAnnotation.m */,
+				2F4151B41AC745F50092360B /* PollingLocationAnnotationView.h */,
+				2F4151B51AC745F50092360B /* PollingLocationAnnotationView.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		2F4151BA1AC754BD0092360B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F4151B71AC754B90092360B /* PollingInformationView.h */,
+				2F4151B81AC754B90092360B /* PollingInformationView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4151731AC710660092360B /* PhillyVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4151971AC710660092360B /* Build configuration list for PBXNativeTarget "PhillyVote" */;
+			buildPhases = (
+				2F4151701AC710660092360B /* Sources */,
+				2F4151711AC710660092360B /* Frameworks */,
+				2F4151721AC710660092360B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhillyVote;
+			productName = PhillyVote;
+			productReference = 2F4151741AC710660092360B /* PhillyVote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F41518C1AC710660092360B /* PhillyVoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F41519A1AC710660092360B /* Build configuration list for PBXNativeTarget "PhillyVoteTests" */;
+			buildPhases = (
+				2F4151891AC710660092360B /* Sources */,
+				2F41518A1AC710660092360B /* Frameworks */,
+				2F41518B1AC710660092360B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F41518F1AC710660092360B /* PBXTargetDependency */,
+			);
+			name = PhillyVoteTests;
+			productName = PhillyVoteTests;
+			productReference = 2F41518D1AC710660092360B /* PhillyVoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F41516C1AC710650092360B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = codeforphilly;
+				TargetAttributes = {
+					2F4151731AC710660092360B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2F41518C1AC710660092360B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2F4151731AC710660092360B;
+					};
+				};
+			};
+			buildConfigurationList = 2F41516F1AC710660092360B /* Build configuration list for PBXProject "PhillyVote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F41516B1AC710650092360B;
+			productRefGroup = 2F4151751AC710660092360B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F4151731AC710660092360B /* PhillyVote */,
+				2F41518C1AC710660092360B /* PhillyVoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4151721AC710660092360B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4151831AC710660092360B /* Main.storyboard in Resources */,
+				2F4151881AC710660092360B /* LaunchScreen.xib in Resources */,
+				2F4151851AC710660092360B /* Images.xcassets in Resources */,
+				2F4151BC1AC759F20092360B /* APIValues.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F41518B1AC710660092360B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4151701AC710660092360B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4151B91AC754B90092360B /* PollingInformationView.m in Sources */,
+				2F4151AE1AC72A990092360B /* API.m in Sources */,
+				2F4151A81AC712960092360B /* CheckRegistrationViewController.m in Sources */,
+				2F4151BF1AC760E90092360B /* AdditionalInfoViewController.m in Sources */,
+				2F4151AB1AC712A40092360B /* ResultsMapViewController.m in Sources */,
+				2F41517D1AC710660092360B /* AppDelegate.m in Sources */,
+				2F4151A51AC712890092360B /* MainMenuViewController.m in Sources */,
+				2F4151B31AC73F2F0092360B /* PollingLocationAnnotation.m in Sources */,
+				2F4151B61AC745F50092360B /* PollingLocationAnnotationView.m in Sources */,
+				2F41517A1AC710660092360B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4151891AC710660092360B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4151941AC710660092360B /* PhillyVoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F41518F1AC710660092360B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F4151731AC710660092360B /* PhillyVote */;
+			targetProxy = 2F41518E1AC710660092360B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F4151811AC710660092360B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4151821AC710660092360B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F4151861AC710660092360B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4151871AC710660092360B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F4151951AC710660092360B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F4151961AC710660092360B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F4151981AC710660092360B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhillyVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F4151991AC710660092360B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhillyVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F41519B1AC710660092360B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhillyVoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillyVote.app/PhillyVote";
+			};
+			name = Debug;
+		};
+		2F41519C1AC710660092360B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhillyVoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillyVote.app/PhillyVote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F41516F1AC710660092360B /* Build configuration list for PBXProject "PhillyVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4151951AC710660092360B /* Debug */,
+				2F4151961AC710660092360B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4151971AC710660092360B /* Build configuration list for PBXNativeTarget "PhillyVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4151981AC710660092360B /* Debug */,
+				2F4151991AC710660092360B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F41519A1AC710660092360B /* Build configuration list for PBXNativeTarget "PhillyVoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F41519B1AC710660092360B /* Debug */,
+				2F41519C1AC710660092360B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F41516C1AC710650092360B /* Project object */;
+}

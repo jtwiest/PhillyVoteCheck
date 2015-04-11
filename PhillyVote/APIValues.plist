@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Building</key>
+	<dict>
+		<key>F</key>
+		<string>Building Fully Accessible</string>
+		<key>B</key>
+		<string>Building Substantially Accessible</string>
+		<key>M</key>
+		<string>Building Accessibilty Modified</string>
+		<key>A</key>
+		<string>Alternate Entrance</string>
+		<key>R</key>
+		<string>Building Accessible With Ramp</string>
+		<key>N</key>
+		<string>Building Not Accessible</string>
+	</dict>
+	<key>Parking</key>
+	<dict>
+		<key>N</key>
+		<string>No Parking</string>
+		<key>G</key>
+		<string>General Parking</string>
+		<key>L</key>
+		<string>Loading Zone</string>
+		<key>H</key>
+		<string>Handicap Parking</string>
+	</dict>
+</dict>
+</plist>
